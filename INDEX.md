@@ -2,7 +2,7 @@
 
 Navigable map of vault entries. Grouped by **project** first (where most navigation starts), then by **topic cluster** for cross-cutting global entries. Counts follow the [[2026-04-29-index-file-audit]] pattern: claim vs. actual.
 
-**Counts:** 12 context · 3 decisions · 26 patterns · 7 references · 8 journal · 0 handoffs = **56 entries** across 6 folders.
+**Counts:** 13 context · 3 decisions · 27 patterns · 7 references · 9 journal · 0 handoffs = **59 entries** across 6 folders.
 
 ## By project
 
@@ -35,6 +35,7 @@ Journal
 
 - [[2026-04-29-last30days-research-save-cycles]] — two save cycles into the vault
 - [[2026-05-06-multi-horizon-journal-backfill]] — daily/weekly/monthly backfill session
+- [[2026-05-07-sparta-moose-pdf-layout]] — one-page schedule PDF via pandoc + typst
 
 ### philoserf/obsidian-metadator (plugin)
 
@@ -130,6 +131,7 @@ Patterns produced
 - [[2026-04-29-bash-close-escape-open-quoting]]
 - [[2026-04-29-things-mcp-logbook-unreliable]]
 - [[2026-04-29-macos-cp-empty-destination]]
+- [[2026-05-07-macos-pdf-page-count-mdls-stale]] — `mdls` lags after rebuilds; use `pdfinfo`
 
 ### Bun / TypeScript
 
@@ -143,6 +145,7 @@ Patterns produced
 - [[2026-05-06-explicit-placeholder-over-silent-zero]]
 - [[2026-04-30-walkthrough-regen-heuristic]]
 - [[2026-04-30-changelog-section-extract-awk]]
+- [[2026-05-07-pandoc-typst-figure-overrides]] — pandoc + typst custom template for table layout
 
 ### Code review
 
