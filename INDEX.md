@@ -2,7 +2,7 @@
 
 Navigable map of vault entries. Grouped by **project** first (where most navigation starts), then by **topic cluster** for cross-cutting global entries. Counts follow the [[2026-04-29-index-file-audit]] pattern: claim vs. actual.
 
-**Counts:** 10 context · 3 decisions · 23 patterns · 7 references · 7 journal · 0 handoffs = **50 entries** across 6 folders.
+**Counts:** 11 context · 3 decisions · 25 patterns · 7 references · 8 journal · 0 handoffs = **54 entries** across 6 folders.
 
 ## By project
 
@@ -28,10 +28,13 @@ Patterns
 - [[2026-04-29-obsidian-note-format]] — formatting conventions
 - [[2026-04-29-prefer-delete-and-regenerate]] — over scripted renames
 - [[2026-04-29-mermaid-default-tb]] — top-to-bottom for narrow screens
+- [[2026-05-06-retrospective-journal-framing]] — honest framing for backfills
+- [[2026-05-06-three-way-voice-filter]] — Drafts/Reference/delete decision tree
 
 Journal
 
 - [[2026-04-29-last30days-research-save-cycles]] — two save cycles into the vault
+- [[2026-05-06-multi-horizon-journal-backfill]] — daily/weekly/monthly backfill session
 
 ### philoserf/obsidian-metadator (plugin)
 
@@ -122,6 +125,7 @@ Patterns produced
 
 - [[2026-05-06-lsp-diagnostic-lag]]
 - [[2026-05-06-modernizer-clean-tree-gate]]
+- [[2026-05-06-sysprompt-currentdate-staleness]]
 - [[2026-04-29-bash-close-escape-open-quoting]]
 - [[2026-04-29-things-mcp-logbook-unreliable]]
 - [[2026-04-29-macos-cp-empty-destination]]
