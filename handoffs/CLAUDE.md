@@ -8,21 +8,11 @@ Agent-to-agent context transfers. When one agent session ends and another needs 
 - When transferring complex context that can't be captured in a commit message.
 - When a task requires multiple sessions and continuity matters.
 
-## Entry Template
+## Frontmatter
 
-```yaml
----
-title: ""
-type: handoff
-project: ""
-tags: []
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-status: active
----
-```
+See `../CONVENTIONS.md` for the schema. Use `type: handoff`.
 
-### Suggested Sections
+## Suggested Sections
 
 - **Current State**: Where things stand right now.
 - **What Was Done**: Summary of completed work.
@@ -30,3 +20,7 @@ status: active
 - **Key Context**: Important decisions, constraints, or gotchas the next agent needs.
 - **Files Touched**: Paths to files that were modified or are relevant.
 - **Related**: Wikilinks to related entries.
+
+## Exemplars
+
+No entries yet — this folder stays empty when sessions wrap up cleanly.
