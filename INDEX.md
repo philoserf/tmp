@@ -2,7 +2,7 @@
 
 Navigable map of vault entries. Grouped by **project** first (where most navigation starts), then by **topic cluster** for cross-cutting global entries. Counts follow the [[2026-04-29-index-file-audit]] pattern: claim vs. actual.
 
-**Counts:** 11 context · 3 decisions · 25 patterns · 7 references · 8 journal · 0 handoffs = **54 entries** across 6 folders.
+**Counts:** 12 context · 3 decisions · 26 patterns · 7 references · 8 journal · 0 handoffs = **56 entries** across 6 folders.
 
 ## By project
 
@@ -93,6 +93,7 @@ Patterns produced
 
 - [[2026-04-29-vault-bootstrap]] — initial scaffolding journal
 - [[2026-05-06-vault-audit-and-index]] — audit, link cleanup, INDEX creation
+- [[2026-05-06-vault-concurrent-writers]] — context: expect rebase divergence
 - `docs/superpowers/specs/2026-04-29-agent-memory-vault-design.md` — design spec
 - `docs/superpowers/plans/2026-04-29-agent-memory-vault.md` — implementation plan
 
@@ -153,6 +154,10 @@ Patterns produced
 - [[2026-04-29-canon-contradiction-protocol]]
 - [[2026-04-29-orphan-fact-disposition]]
 - [[2026-04-29-index-file-audit]]
+
+### Vault meta-patterns
+
+- [[2026-05-06-trigger-specificity-over-merging]] — read before merging similar-titled patterns
 
 ## Maintenance
 
