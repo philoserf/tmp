@@ -18,7 +18,7 @@ This vault uses: type-folder layout (`context/`, `decisions/`, `patterns/`, `ref
 ```bash
 # Counts per folder vs. INDEX.md claim
 for d in context decisions patterns references journal handoffs; do
-  count=$(ls "$d" 2>/dev/null | grep -v README.md | grep -c '\.md$')
+  count=$(ls "$d" 2>/dev/null | grep -vE '^(README|CLAUDE)\.md$' | grep -c '\.md$')
   echo "$d: $count"
 done
 ```
@@ -31,7 +31,7 @@ grep -rE "^status: (superseded|archived)" --include="*.md" .
 ### 2. Extract link graph
 
 ```bash
-for f in $(find . -name "*.md" ! -name "README.md" ! -path "./docs/*" ! -path "./.claude/*" ! -name "CLAUDE.md" ! -name "CONVENTIONS.md" ! -name "INDEX.md"); do
+for f in $(find . -name "*.md" ! -name "CLAUDE.md" ! -name "README.md" ! -name "CONVENTIONS.md" ! -name "INDEX.md" ! -path "./docs/*" ! -path "./.claude/*"); do
   links=$(grep -oE '\[\[[^]]+\]\]' "$f" | sort -u | tr '\n' ' ')
   echo "$f :: $links"
 done | sort
