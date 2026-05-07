@@ -8,10 +8,11 @@ An Obsidian vault where agents read and write structured notes across sessions. 
 
 ## How to Read
 
-1. **By folder**: Navigate to the relevant folder (`context/`, `decisions/`, `patterns/`, `references/`, `journal/`, `handoffs/`).
-2. **By frontmatter**: Grep for `type:`, `project:`, `status:`, or `tags:` in YAML frontmatter to find matching entries.
-3. **By wikilinks**: Follow `[[wikilinks]]` in notes to traverse related entries.
-4. **Active entries only**: Filter by `status: active` to skip superseded or archived notes.
+1. **By index**: Start at [[INDEX]] for a project- and topic-grouped map of all entries.
+2. **By folder**: Navigate to the relevant folder (`context/`, `decisions/`, `patterns/`, `references/`, `journal/`, `handoffs/`).
+3. **By frontmatter**: Grep for `type:`, `project:`, `status:`, or `tags:` in YAML frontmatter to find matching entries.
+4. **By wikilinks**: Follow `[[wikilinks]]` in notes to traverse related entries.
+5. **Active entries only**: Filter by `status: active` to skip superseded or archived notes.
 
 ## How to Write
 
@@ -29,13 +30,15 @@ An Obsidian vault where agents read and write structured notes across sessions. 
 - When encountering a project for the first time.
 - When learning something that would benefit future sessions.
 
+After adding an entry, also add it to [[INDEX]] under the right project/topic section.
+
 ## Folder Map
 
-| Folder | Contents |
-|---|---|
-| `context/` | Project & codebase context — architecture, tech stacks, gotchas |
-| `decisions/` | Architecture & design decisions with rationale |
-| `patterns/` | Coding preferences, style conventions, reusable approaches |
-| `references/` | API docs, snippets, templates, prompts |
-| `journal/` | Task history, session logs, lessons learned |
-| `handoffs/` | Agent-to-agent context transfers |
+| Folder        | Contents                                                        |
+| ------------- | --------------------------------------------------------------- |
+| `context/`    | Project & codebase context — architecture, tech stacks, gotchas |
+| `decisions/`  | Architecture & design decisions with rationale                  |
+| `patterns/`   | Coding preferences, style conventions, reusable approaches      |
+| `references/` | API docs, snippets, templates, prompts                          |
+| `journal/`    | Task history, session logs, lessons learned                     |
+| `handoffs/`   | Agent-to-agent context transfers                                |

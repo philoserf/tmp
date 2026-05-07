@@ -4,9 +4,11 @@ type: reference
 project: "global"
 tags: [tool/git, urgency/gotcha]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-06
 status: active
 ---
+
+Related stash gotcha: [[2026-04-29-git-stash-pop-cross-branch]].
 
 `git stash push -- <path>` fails with `error: could not write index / <path>: needs merge` if the path is in UU (unmerged) state, even when there is no active `MERGE_HEAD`, `REBASE_HEAD`, or `CHERRY_PICK_HEAD` (stale residue state from a prior aborted operation).
 

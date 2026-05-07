@@ -4,9 +4,11 @@ type: decision
 project: "philoserf/notes"
 tags: [tool/obsidian, tool/hugo, topic/architecture]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-06
 status: active
 ---
+
+Related vault-schema decision: [[2026-04-29-related-frontmatter-field-removed]].
 
 ## Decision
 

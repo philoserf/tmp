@@ -4,9 +4,11 @@ type: pattern
 project: "philoserf/notes"
 tags: [topic/frontmatter, topic/publishing]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-06
 status: active
 ---
+
+Related: [[2026-04-29-frontmatter-field-ownership]] (where `status` ownership is defined).
 
 ## Pattern
 

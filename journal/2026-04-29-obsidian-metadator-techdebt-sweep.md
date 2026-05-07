@@ -4,11 +4,11 @@ type: journal
 project: "philoserf/obsidian-metadator"
 tags: [topic/architecture, topic/testing, lang/typescript, tool/copilot]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-06
 status: active
 ---
 
-Long iterative session resolving the open tech-debt backlog on the obsidian-metadator plugin (Anthropic API → Obsidian YAML frontmatter generator).
+Long iterative session resolving the open tech-debt backlog on the obsidian-metadator plugin (Anthropic API → Obsidian YAML frontmatter generator). For the project shape see [[2026-04-29-obsidian-metadator-architecture]].
 
 ## Closed issues
 
@@ -33,6 +33,11 @@ Plus #137 docs sync, plus closed #111 / #112 as already-resolved.
 - SDK boundary lint-enforced; `src/adapters/claude.ts` is the only static importer
 - Schema versioning prevents forward-version data corruption
 - Structured logs with per-call requestId + event vocabulary for diagnosis
+
+## Reusable knowledge produced
+
+- [[2026-04-29-strict-positive-int-parser]] — pattern for the `maxBulkFiles` parsing in #114.
+- [[2026-04-29-bun-test-mock-module-gotchas]] — testing pattern from the SDK adapter tests.
 
 ## Lessons
 

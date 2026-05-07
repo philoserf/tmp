@@ -4,11 +4,11 @@ type: journal
 project: "philoserf/obsidian-metadator"
 tags: [tool/claude-code, tool/git, topic/deployment]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-06
 status: active
 ---
 
-Cut 2.2.0 release. Used `/obsidian-release-check` → custom prep PR → `/obsidian-release` flow.
+Cut 2.2.0 release. Used `/obsidian-release-check` → custom prep PR → `/obsidian-release` flow. Bundles the work from [[2026-04-29-obsidian-metadator-techdebt-sweep]]; project context at [[2026-04-29-obsidian-metadator-architecture]].
 
 ## Starting state
 

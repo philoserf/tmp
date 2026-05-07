@@ -4,11 +4,13 @@ type: context
 project: "global"
 tags: [tool/git, topic/debugging]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-06
 status: active
 ---
 
 If you stash on branch A (which has commits not on B) and pop on branch B, every file touched by an A-only commit will conflict. The stash baseline includes those commits' content; the new branch doesn't.
+
+Related stash gotcha: [[2026-04-29-git-stash-unmerged-paths]].
 
 ## Why
 

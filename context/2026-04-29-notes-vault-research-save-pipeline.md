@@ -4,13 +4,13 @@ type: context
 project: "philoserf/notes"
 tags: [tool/claude-code, topic/workflow]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-05-06
 status: active
 ---
 
 ## Context
 
-The `philoserf/notes` Obsidian vault accepts `/last30days` (and similar research-skill) outputs as Inbox notes with zero friction. This is a stable, reusable pipeline for "research-then-file" flows.
+The `philoserf/notes` Obsidian vault accepts `/last30days` (and similar research-skill) outputs as Inbox notes with zero friction. This is a stable, reusable pipeline for "research-then-file" flows. Two such cycles are recorded in [[2026-04-29-last30days-research-save-cycles]].
 
 ## Pipeline
 
