@@ -2,7 +2,7 @@
 
 Navigable map of vault entries. Grouped by **project** first (where most navigation starts), then by **topic cluster** for cross-cutting global entries. Counts follow the [[2026-04-29-index-file-audit]] pattern: claim vs. actual.
 
-**Counts:** 13 context · 3 decisions · 27 patterns · 7 references · 9 journal · 0 handoffs = **59 entries** across 6 folders.
+**Counts:** 14 context · 3 decisions · 29 patterns · 7 references · 10 journal · 0 handoffs = **63 entries** across 6 folders.
 
 ## By project
 
@@ -20,6 +20,7 @@ Context
 - [[2026-04-29-changelog-md-plugin-managed]] — not collateral damage
 - [[2026-04-29-obsidian-cli-property-set-list-syntax]] — JSON array required for lists
 - [[2026-04-29-things-mcp-logbook-unreliable]] — filters by creation, not completion
+- [[2026-05-08-philoserf-notes-fully-load-bearing]] — `fully` is precise, not filler
 
 Patterns
 
@@ -36,6 +37,7 @@ Journal
 - [[2026-04-29-last30days-research-save-cycles]] — two save cycles into the vault
 - [[2026-05-06-multi-horizon-journal-backfill]] — daily/weekly/monthly backfill session
 - [[2026-05-07-sparta-moose-pdf-layout]] — one-page schedule PDF via pandoc + typst
+- [[2026-05-08-filler-cleanup-issue-58]] — calibrated filler-word pass, 73 cuts
 
 ### philoserf/obsidian-metadator (plugin)
 
@@ -107,6 +109,7 @@ Patterns produced
 - [[2026-04-29-prefer-durable-options]]
 - [[2026-05-06-read-before-deciding-consume-vs-derive]]
 - [[2026-04-29-no-design-plan-docs-in-commits]]
+- [[2026-05-08-calibration-round-before-scale]] — sample-and-checkpoint before bulk-edit
 
 ### Trust-but-verify
 
@@ -122,6 +125,7 @@ Patterns produced
 - [[2026-04-29-pr-review-reply-workflow]] ↔ [[2026-04-29-gh-pr-review-comment-reply]]
 - [[2026-05-06-commit-toolchain-migrations-first]]
 - [[2026-04-29-no-design-plan-docs-in-commits]]
+- [[2026-05-08-git-commit-pathspec-isolation]] — preserve user's pre-staged work
 
 ### Tooling gotchas (claude-code, MCPs, language tooling)
 
